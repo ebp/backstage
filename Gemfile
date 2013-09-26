@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
+source 'http://torquebox.org/rubygems' # Necessary for TB 2.x large server gem
   
 gem "sinatra", "1.2.6"
 gem 'haml', '~>3.0'
 gem 'sass', '~>3.0'
 gem "jmx", '0.9'
 gem 'json', '1.5.1'
-gem 'torquebox', '2.3.0'
+gem 'torquebox', '2.3.2'
 gem 'tobias-sinatra-url-for', '0.2.1'
 gem 'rack-accept', '~>0.4.0'
 gem 'torquebox-webconsole', '0.1.0'
